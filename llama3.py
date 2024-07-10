@@ -76,7 +76,6 @@ import time
 
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
-# "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"
 
 # Start time
 start_time = time.time()
