@@ -47,6 +47,7 @@ langchain-core
 langchain-groq
 langchain-text-splitters
 langgraph
+langserve
 langsmith
 load-dotenv
 mypy-extensions
