@@ -63,8 +63,6 @@ opentelemetry-instrumentation
 opentelemetry-proto
 opentelemetry-sdk
 opentelemetry-semantic-conventions
-orjson
-os
 packaging
 parso
 platformdirs
