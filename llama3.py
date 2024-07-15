@@ -54,11 +54,11 @@ llm_groq = ChatGroq(model='llama3-70b-8192')
 
 # %%
 # Vectorstore
-persist_directory = 'docs/chroma'
-vectorstore = Chroma(embedding_function=OllamaEmbeddings(model='llama3'), persist_directory=persist_directory)
-retriever = vectorstore.as_retriever()
-def combine_docs(docs):
-    return "\n\n".join(doc.page_content for doc in docs)
+# persist_directory = 'docs/chroma'
+# vectorstore = Chroma(embedding_function=OllamaEmbeddings(model='llama3'), persist_directory=persist_directory)
+# retriever = vectorstore.as_retriever()
+# def combine_docs(docs):
+#     return "\n\n".join(doc.page_content for doc in docs)
 
 #%%
 # SQL Chain
