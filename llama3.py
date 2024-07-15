@@ -74,12 +74,11 @@ from getpass import getpass
 from pathlib import Path
 import time
 
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# __import__('pysqlite3')
+# import sys
+# sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
-# "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"
 
 # Start time
 start_time = time.time()
