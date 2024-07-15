@@ -7,7 +7,6 @@ certifi
 chainlit
 charset-normalizer
 chevron
-chroma-hnswlib
 chromadb
 click
 colorama
@@ -52,7 +51,6 @@ langsmith
 load-dotenv
 mypy-extensions
 nest-asyncio
-numpy
 oauthlib
 ollama
 opentelemetry-api
@@ -94,7 +92,6 @@ setuptools
 simple-websocket
 sniffio
 soupsieve
-SQLAlchemy
 stack-data
 starlette
 syncer
